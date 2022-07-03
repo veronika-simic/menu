@@ -1,0 +1,69 @@
+*, ::after, ::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+   
+}
+
+.menu {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* header section */
+
+header {
+
+}
+
+nav {
+    margin-top: 2.5%;
+}
+
+nav > ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+nav > ul > li {
+    list-style-type: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+h1 {
+    font-family: Montserrat, sans-serif;
+    text-align: center;
+    margin-top: 2.5%;
+}
+
+
+main {
+    margin-top: 4%;
+}
+/* bread section */ 
+
+.bread {
+
+}
+
+h2 {
+    text-align: center;
+    font-family: Montserrat, sans-serif;
+}
+
+.bread > .item > p {
+    display: inline-block;
+}
+
+.flavor {
+    width: 50%;
+}
+
+.price {
+    width: 50%;
+}
+
+
