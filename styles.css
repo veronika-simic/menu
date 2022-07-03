@@ -80,5 +80,11 @@ h2 {
 }
 
 
+/* donuts section */
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
 
 
