@@ -12,6 +12,13 @@ body {
     margin: 0 auto;
 }
 
+h1, h2, p {
+    text-align: center;
+}
+
+p, li {
+    font-family: 'Courier New', Courier, monospace;
+}
 /* header section */
 
 header {
@@ -30,18 +37,18 @@ nav > ul {
 
 nav > ul > li {
     list-style-type: none;
-    font-family: 'Courier New', Courier, monospace;
 }
 
 h1 {
     font-family: Montserrat, sans-serif;
-    text-align: center;
+   
     margin-top: 2.5%;
 }
 
 
 main {
     margin-top: 4%;
+
 }
 /* bread section */ 
 
@@ -50,11 +57,15 @@ main {
 }
 
 h2 {
-    text-align: center;
+    
     font-family: Montserrat, sans-serif;
 }
 
-.bread > .item > p {
+.item {
+    
+}
+
+.item > p {
     display: inline-block;
 }
 
@@ -65,5 +76,7 @@ h2 {
 .price {
     width: 50%;
 }
+
+
 
 
