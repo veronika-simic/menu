@@ -147,6 +147,16 @@ section {
   justify-content: space-between;
 }
 
+.card-footer > p {
+    color: var(--second-text-color);
+    font-size: 1.5rem;
+}
+
+.card-footer > p > span {
+   font-size: 1.5em
+}
+
+
 .card-footer > button {
     background-color: var(--second-text-color);
     border: none;
@@ -155,5 +165,11 @@ section {
     height: 50px;
     font-size: 1.5rem;
     width: 150px;
+   
+    transition: .2s ease-in-out 0s;
+}
 
+.card-footer > button:hover {
+    cursor: pointer;
+    transform: scale(1.2);
 }
