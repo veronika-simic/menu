@@ -31,17 +31,32 @@ nav {
     justify-content: space-around;
     margin-bottom: 2rem;
 }
+/* first nav bar */
 
 .social-media, .icons {
     display: flex;
     column-gap: 1.5rem;
 }
 
+.social-media > li > a {
+    color: var(--main-text-color);
+    text-decoration: none;
+}
+
+
+.social-media > li > a:hover {
+    color: var(--second-text-color);
+    text-decoration: none;
+}
+
 h1 {
     color: var(--second-text-color);
+    font-family: var(--second-font);
     font-size: 4rem;
 }
 
+
+/* second nav bar */
 .internal-links {
     display: flex;
     justify-content: space-around;
