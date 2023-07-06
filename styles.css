@@ -22,7 +22,7 @@ body {
 /* header */
 
 header {
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 
 nav {
@@ -56,7 +56,7 @@ nav {
 h1 {
   color: var(--second-text-color);
   font-family: var(--second-font);
-  font-size: 4.5rem;
+  font-size: 3rem;
 }
 
 /* second nav bar */
