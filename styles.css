@@ -83,7 +83,9 @@ h2 {
   font-family: var(--second-font);
   font-weight: 700;
 }
-
+section {
+  margin: 2rem 0 6rem;
+}
 .main-content-container {
   display: flex;
   justify-content: space-between;
@@ -91,22 +93,46 @@ h2 {
 }
 
 .intro {
-    width: 40%;
-    line-height: 2rem;
+  width: 40%;
+  line-height: 2rem;
 }
 
 .intro > p {
-    font-size: 1.25rem;
-    margin-bottom: 2rem;
+  font-size: 1.25rem;
+  margin-bottom: 2rem;
 }
 
 .intro > a {
-    color: var(--second-text-color);
-    letter-spacing: 0.25rem;
+  color: var(--second-text-color);
+  letter-spacing: 0.25rem;
 }
 
 img {
-    margin-top: -15rem;
+  margin-top: -15rem;
   width: 50%;
-  z-index: -1
+  z-index: -1;
 }
+
+/* cards */
+
+.cards-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.cards-container > .card {
+    width: 25%;
+}
+
+.cards-container > .card > h3 {
+    color: var(--second-text-color);
+    font-family: var(--second-font);
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+}
+  
