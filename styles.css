@@ -107,7 +107,7 @@ section {
   letter-spacing: 0.25rem;
 }
 
-img {
+.main-content-container > img {
   margin-top: -15rem;
   width: 50%;
   z-index: -1;
@@ -121,18 +121,39 @@ img {
 }
 
 .cards-container > .card {
-    width: 25%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 1.5rem;
+  width: 25%;
 }
 
 .cards-container > .card > h3 {
-    color: var(--second-text-color);
-    font-family: var(--second-font);
-    font-size: 2rem;
-    font-weight: 500;
+  color: var(--second-text-color);
+  font-family: var(--second-font);
+  font-size: 3rem;
+  font-weight: 500;
+  line-height: 80%;
+  z-index: -1;
+}
+
+.cards-container > .card > img {
+  margin-top: -2rem;
+  width: 10rem;
 }
 
 .card-footer {
-    display: flex;
-    justify-content: space-between;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
 }
-  
+
+.card-footer > button {
+    background-color: var(--second-text-color);
+    border: none;
+    border-radius: 7.5%;
+    color: var(--main-text-color);
+    height: 50px;
+    font-size: 1.5rem;
+    width: 150px;
+
+}
