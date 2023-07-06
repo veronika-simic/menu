@@ -1,67 +1,72 @@
 :root {
-    --main-bg-color: black;
-    --main-text-color: white;
-    --second-text-color: #FFA559;
-    --main-font: 'Roboto', sans-serif;
-    --second-font: 'Roboto Slab', serif;
+  --main-bg-color: black;
+  --main-text-color: white;
+  --second-text-color: #ffa559;
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Roboto Slab", serif;
 }
 
-*, ::after, ::before {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+*,
+::after,
+::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: var(--main-bg-color);
-    color: var(--main-text-color)
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
 }
 
 /* header */
 
 header {
-    margin-top: 4rem;
+  margin-top: 4rem;
 }
 
-
 nav {
-    align-items: center;
-    display: flex;
-    font-family: var(--main-font);
-    justify-content: space-around;
-    margin-bottom: 2rem;
+  align-items: center;
+  display: flex;
+  font-family: var(--main-font);
+  justify-content: space-evenly;
+}
+
+.icons-social-media {
+  margin-bottom: 6rem;
 }
 /* first nav bar */
 
-.social-media, .icons {
-    display: flex;
-    column-gap: 1.5rem;
+.social-media,
+.icons {
+  display: flex;
+  column-gap: 1.25rem;
 }
 
 .social-media > li > a {
-    color: var(--main-text-color);
-    text-decoration: none;
+  color: var(--main-text-color);
+  text-decoration: none;
 }
 
-
 .social-media > li > a:hover {
-    color: var(--second-text-color);
-    text-decoration: none;
+  color: var(--second-text-color);
+  text-decoration: none;
 }
 
 h1 {
-    color: var(--second-text-color);
-    font-family: var(--second-font);
-    font-size: 4rem;
+  color: var(--second-text-color);
+  font-family: var(--second-font);
+  font-size: 4.5rem;
 }
-
 
 /* second nav bar */
 .internal-links {
-    display: flex;
-    justify-content: space-around;
+  column-gap: 6rem;
+  display: flex;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 ul {
-    list-style: none;
+  list-style: none;
 }
